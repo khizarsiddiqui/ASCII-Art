@@ -38,3 +38,7 @@ def getAverageL(image):
     w,h = im.shape
 # get the average
     return np.average(im.reshape(w*h))
+
+# Generating the ASCII Content from the Image (step 3)
+# an ASCII image is a list of character strings
+aimg = []
