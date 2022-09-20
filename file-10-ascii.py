@@ -78,7 +78,7 @@ def convertImageToAscii(fileName, cols, scale, moreLevels):
             else:
                 gsval = gscale2[int((avg*9)/255)]
 # append the ASCII character to the string
-        aimg[j] += gsval
+            aimg[j] += gsval
 
 # return text image
     return aimg
